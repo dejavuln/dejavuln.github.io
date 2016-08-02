@@ -128,7 +128,7 @@ If anybody ever gets a CVE-ID for this vulnerability, please [contact me](http:/
 
 ## 5. Vulnerability Details<a id="details"></a>
 
-The device keeps a record of unsuccessful SMB login attempts in a log file. The contents of this log file can be viewed from within the device's web interface; either on a dedicated page (Management -> System Management -> Logs; ```<http://<IP>/web/management.html?id=log>```) or on the home page ```<http://<IP>/web/home.html>```. Both pages suffer from the same vulnerability, but because the home page is automatically loaded after a successful login, injected code will be run immediately afterwards and without further user interaction.
+The device keeps a record of unsuccessful SMB login attempts in a log file. For login attempts with a non-existing username, this username will be stored and later displayed without being sanitized. The contents of the log file can be viewed from within the device's web interface; either on a dedicated page (Management -> System Management -> Logs; ```<http://<IP>/web/management.html?id=log>```) or on the home page ```<http://<IP>/web/home.html>```. Both pages suffer from the same vulnerability, but because the home page is automatically loaded after a successful login, injected code will be run immediately afterwards and without further user interaction.
 
 Because malicious code can be injected using a protocol (SMB) other than the protocol leading to its eventual execution (HTTP), preventing outside access to the web interface is not sufficient to protect against the exploitation of this vulnerability. 
 
