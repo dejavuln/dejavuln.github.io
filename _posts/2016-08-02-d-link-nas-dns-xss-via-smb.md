@@ -24,7 +24,7 @@ image:
 
 ## 1. Affected Models/Versions<a id="models"></a>
 
-The vulnerability was initially discovered in a **D-Link DNS-320 rev A** device running **firmware version 2.05b8** (also known as: "2.13.0507.2014"). The remainder of this advisory describes and demonstrates the vulnerability based on this exact model and version.
+The vulnerability was initially discovered on a **D-Link DNS-320 rev A** device running **firmware version 2.05b8** (also known as: "2.13.0507.2014"). The remainder of this advisory describes and demonstrates the vulnerability based on this exact model and version.
 
 However, according to D-Link **the following models are also vulnerable**. The version numbers and dates listed below indicate the firmware version current at the time D-Link confirmed these devices to be vulnerable. 
 
