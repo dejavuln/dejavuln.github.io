@@ -118,7 +118,7 @@ The device's administrative web interface contains a **Stored Cross-Site Scripti
 
 Unlike reflected XSS vulnerabilities, it does not require the victim to open an attacker-supplied link or to visit a malicious web page.  
 
-It is one of the relatively few XSS vulnerabilities where malicious code can be injected despite having neither direct nor indirect access to the vulnerable web application. As such, it can be exploited even when access to ports 80/tcp (HTTP) and 443/tcp (HTTPS) is denied.
+This is one of the relatively few XSS vulnerabilities where malicious code can be injected despite having neither direct nor indirect access to the vulnerable web application. As such, it can be exploited even when access to ports 80/tcp (HTTP) and 443/tcp (HTTPS) is denied.
 
 ### CVE-ID
 
