@@ -1,0 +1,31 @@
+# Site navigation links
+
+- title: All Posts
+  url: /posts/
+
+- title: Twitter
+  url: https://twitter.com/dejavuln
+  
+- title: LinkedIn
+  url: https://www.linkedin.com/in/mussler
+
+- title: HackerOne
+  url: https://hackerone.com/dejavuln
+
+- title: Bugcrowd
+  url: https://bugcrowd.com/dejavuln
+  
+#- title: CTFs
+#  url: /walkthrough/
+
+#- title: Projects
+#  url: /projects/
+
+#- title: About Me
+#  url: /about/
+
+#- title: Book Reviews
+#  url: /book-reviews/
+
+- title: Contact
+  url: /contact/

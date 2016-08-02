@@ -1,0 +1,65 @@
+# Site wide configuration
+
+title:            "Benjamin Daniel Mussler's InfoSec Blog (B.FL7.DE)"
+locale:           en_US
+url:			http://b.fl7.de
+#url:			http://127.0.0.1:4000
+excerpt_separator: <!--more-->
+
+
+# Jekyll configuration
+
+permalink:   /:year/:month/:title.html
+markdown:    kramdown
+highlighter: rouge
+sass:
+  sass_dir: _sass
+  style: compressed
+gems:
+  - jekyll-sitemap
+
+kramdown:
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  use_coderay: false
+
+
+# Site owner
+owner:
+  name: Benjamin Daniel Mussler
+  avatar: #../images/tiigrihupe.png #../images/bio-photo.jpg #
+  bio: "Ix-Xgħajra, Malta<br />Karlsruhe, Germany    <br /><br /> Technical notes, thoughts and vulnerability advisories sprinkled with the occasional proof-of-concept."
+  email: WEB<!-- x -->@<!-- y -->FL<!-- z -->7.DE
+  disqus-shortname:
+  twitter: dejavuln
+  hackerone: dejavuln
+  bugcrowd: dejavuln
+  facebook: 
+  google:
+    plus: #username
+    analytics: UA-54529506-1
+    verify:
+    ad-client:
+    ad-slot:
+  bing-verify:
+  github: 
+  stackoverflow: #123456/username   from a "http://stackoverflow.com/users/123456/username" link
+  linkedin: mussler
+  xing: #username
+  instagram: #username
+  lastfm: #username
+  tumblr: #username
+  pinterest: #username
+  foursquare: #username
+  steam: #username
+  dribbble: #username
+  youtube: 
+  soundcloud: #username
+  weibo: #username
+  flickr: #username
+  codepen: #username
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
