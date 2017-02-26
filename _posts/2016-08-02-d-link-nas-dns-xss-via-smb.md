@@ -56,6 +56,8 @@ The vulnerability can be used to read and write settings accessible through the 
 
 ## 3. Recommendations for End-Users<a id="enduser"></a>
 
+*Update*: Firmware updates for some of the affected devices have been made available [http://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10064](here). Read "Suggested precautions when applying a firmware update" below before attempting an update.
+
 Vulnerable devices should not be accessible from untrusted and potentially hostile networks such as the internet. If they are, they should be disconnected immediately. 
 
 When a vulnerable device is not connected to the internet but to a local network, the greatest risk may come from malware, more specifically ransomware. 
@@ -200,7 +202,7 @@ If the device is indeed vulnerable, the user will be greeted with an "XSS" popup
 2016-07-19: Asked D-Link for direct links to said updates.  
 2016-08-02: (Two weeks later: still no response.)  
 **2016-08-02: Advisory published.**  
-
+** 2016-08-??: D-Link [announces availability](http://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10064) of updates for some affected models.
 
 ## 8. See Also<a id="seealso"></a> 
 
