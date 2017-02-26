@@ -202,7 +202,7 @@ If the device is indeed vulnerable, the user will be greeted with an "XSS" popup
 2016-07-19: Asked D-Link for direct links to said updates.  
 2016-08-02: (Two weeks later: still no response.)  
 **2016-08-02: Advisory published.**  
-** 2016-08-??: D-Link [announces availability](http://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10064) of updates for some affected models.
+** 2016-08-??: D-Link [announces availability](http://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10064) of updates for some affected models.**
 
 ## 8. See Also<a id="seealso"></a> 
 
