@@ -56,7 +56,7 @@ The vulnerability can be used to read and write settings accessible through the 
 
 ## 3. Recommendations for End-Users<a id="enduser"></a>
 
-*Update*: Firmware updates for some of the affected devices have been made available [http://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10064](here). Read "Suggested precautions when applying a firmware update" below before attempting an update.
+*Update*: Firmware updates for some of the affected devices have been made available [http://supportannouncement.us.dlink.com/announcement/publication.aspx?name=SAP10064](here). Read "Suggested precautions when applying a firmware update" below before attempting an update. 
 
 Vulnerable devices should not be accessible from untrusted and potentially hostile networks such as the internet. If they are, they should be disconnected immediately. 
 
