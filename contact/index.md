@@ -7,7 +7,7 @@ image:
   feature: banner4.jpg
 ---
  
-* My Twitter handle is [@dejavuln](https://twitter.com/dejavuln). 
+* My Twitter handle is [@mussler](https://twitter.com/mussler). 
 
 * To have a more private conversation, email me at WEB<!-- x -->@<!-- y -->FL<!-- z -->7.DE  
 
